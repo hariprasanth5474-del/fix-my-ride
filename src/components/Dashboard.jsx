@@ -5,11 +5,11 @@ function Dashboard() {
         <div className="dashboard">
 
             <header>
-                <p>Admin Dashboard</p>
+                <h2>Admin Dashboard</h2>
             </header>
 
             <div className="layout">
-
+               
                 <main>
 
                     <section className="section">

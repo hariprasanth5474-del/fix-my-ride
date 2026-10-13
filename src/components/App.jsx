@@ -13,6 +13,8 @@ import Customers from './Customers.jsx'
 import Feedback from './Feedback.jsx'
 import Nav from './Nav.jsx'
 import Welcome from './Welcome.jsx'
+import Bookservice from './Bookservice.jsx'
+import Customerreg from './Customerreg.jsx'
 
 function App() {
 
@@ -148,6 +150,9 @@ function App() {
   <Route path="/feedback" element={<Feedback/>}/>
   <Route path="/customer" element={<Customers/>}/>
   <Route path="/technician" element={<Technician/>}/>
+  <Route path="/Bookservice"element={<Bookservice/>}/>
+  <Route path="/Customerreg"element={<Customerreg/>}/>
+  
   </> : <Route path="/login" element={<Login setLogin={setLogin}/>}/>}
   {/* <Route path="*" element={<Navigate to="/" replace/>} /> */}
     <Route path="*" element={<Welcome/>} />

@@ -40,6 +40,9 @@ import { useNavigate } from "react-router-dom";
                     <li> <a href="/feedback">Feedback</a></li>
                     <li>  <a href="/settings">Settings</a></li>
                     <li>  <a href="/bill">Bill</a> </li> 
+                    <li> <a href="/Bookservice">Booking page</a></li>
+                    <li> <a href="/Customerreg">Customer Reg</a></li>
+                    
                     <li>  <a  style={{ cursor: "pointer" }} onClick={onLogout}>Logout</a></li>
     </> :           <li> <a href="/login">login</a></li>
 }        
